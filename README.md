@@ -13,10 +13,10 @@
 
 <div align="center">
 <div>
-<img src="" width="20%" />
-<img src="" width="20%" />
-<img src="" width="20%" />
-<img src="" width="20%" />
+<img src="" width="40%" />
+<img src="" width="40%" />
+<img src="" width="40%" />
+<img src="" width="40%" />
 </div>
 </div>
 
