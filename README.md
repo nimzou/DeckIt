@@ -1,16 +1,29 @@
+<div align="center">
+
+<img width="" src="assets/icon/icon.png"  width=160 height=160  align="center">
+
 # DeckIt
 
-A new Flutter project.
+### FlashCards App
 
-## Getting Started
+</div>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div align="center">
+<div>
+<img src="" width="30%" />
+<img src="" width="30%" />
+<img src="" width="30%" />
+<img src="" width="30%" />
+</div>
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br>
+
+## 📖 Features
+
+- Easy to use and user-friendly.
+
+- [Material Design 3](https://m3.material.io/) style UI, with dynamic color theme.
