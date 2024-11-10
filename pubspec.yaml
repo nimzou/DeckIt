@@ -1,0 +1,32 @@
+name: DeckIt
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.1.6
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
