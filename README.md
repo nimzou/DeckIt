@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="" src="assets/icon/icon.png"  width=160 height=160  align="center">
+<img width="" src="assets/screenshots/icon.png"  width=160 height=160  align="center">
 
 # DeckIt
 
@@ -13,10 +13,10 @@
 
 <div align="center">
 <div>
-<img src="" width="40%" />
-<img src="" width="40%" />
-<img src="" width="40%" />
-<img src="" width="40%" />
+<img src="assets/screenshots/1.jpg" width="40%" />
+<img src="assets/screenshots/2.jpg" width="40%" />
+<img src="assets/screenshots/3.jpg" width="40%" />
+<img src="assets/screenshots/4.jpg" width="40%" />
 </div>
 </div>
 
