@@ -37,13 +37,13 @@ Ensure you have the following installed on your development machine:
 1. Clone the repository from GitHub:
 
    ```sh
-   git clone https://github.com/Roger9876/flashcards.git
+   https://github.com/niharPat/DeckIt.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd flashcards
+   cd DeckIt
    ```
 
 3. Install the necessary dependencies:
