@@ -2,9 +2,7 @@
 
 <img width="" src="assets/screenshots/icon.png"  width=160 height=160  align="center">
 
-# DeckIt
-
-### FlashCards App
+# DeckIt - FlashCards App
 
 </div>
 
@@ -13,10 +11,10 @@
 
 <div align="center">
 <div>
-<img src="assets/screenshots/1.jpg" width="40%" />
-<img src="assets/screenshots/2.jpg" width="40%" />
-<img src="assets/screenshots/3.jpg" width="40%" />
-<img src="assets/screenshots/4.jpg" width="40%" />
+<img src="assets/screenshots/1.jpg" width="20%" />
+<img src="assets/screenshots/2.jpg" width="20%" />
+<img src="assets/screenshots/3.jpg" width="20%" />
+<img src="assets/screenshots/4.jpg" width="20%" />
 </div>
 </div>
 
