@@ -33,7 +33,7 @@ jobs:
 
     # 3.
     - name: Build IPA
-      run: flutter build ipa --no-codesign
+      run: flutter build ipa
 
     - name: Compress Archives and IPAs
       run: |
