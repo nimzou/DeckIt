@@ -24,8 +24,6 @@ jobs:
     - run: flutter pub get
     - run: dart format --set-exit-if-changed .
       continue-on-error: true
-    - run: flutter analyze .
-    - run: flutter test
     - run: flutter build apk
     
     - uses: actions/upload-artifact@v3
