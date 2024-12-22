@@ -1,6 +1,9 @@
 name: Flutter CI
 
 on:
+  pull_request:
+    branches:
+      - master
   push:
     branches:
     - master
@@ -15,18 +18,48 @@ jobs:
       with:
         java-version: '17'
         distribution: 'oracle'
-    
-    # Setup the flutter environment.
+
     - uses: subosito/flutter-action@v2
       with:
         channel: 'stable'
     
-    - run: flutter pub get
-    - run: dart format --set-exit-if-changed .
-      continue-on-error: true
-    - run: flutter build apk
+    # 1.
+    - name: Install dependencies
+      run: flutter pub get
     
-    - uses: actions/upload-artifact@v3
+    # 2. 
+    - name: Building APK
+      run: flutter build apk
+
+    # 3.
+    - name: Build IPA
+      run: flutter build ipa --no-codesign
+
+    - name: Compress Archives and IPAs
+      run: |
+        cd build
+        tar -czf ios_build.tar.gz ios
+    
+    # 4.
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v3
       with:
-        name: release-apk
-        path: build/app/outputs/apk/release/app-release.apk
+        name: Releases
+        path: | 
+          build/app/outputs/flutter-apk/app-release.apk
+          build/app/outputs/bundle/release/app-release.aab
+          build/ios_build.tar.gz
+
+    # 5.
+    - name: Extract version from pubspec.yaml
+      id: extract_version
+      run: |
+          version=$(grep '^version: ' pubspec.yaml | cut -d ' ' -f 2 | tr -d '\r')
+          echo "VERSION=$version" >> $GITHUB_ENV
+
+    # 6.
+    - name: Create Release
+      uses: ncipollo/release-action@v3
+      with:
+          artifacts: "build/app/outputs/flutter-apk/app-release.apk,build/app/outputs/bundle/release/app-release.aab,build/ios_build.tar.gz"
+          tag: v${{ env.VERSION }}
