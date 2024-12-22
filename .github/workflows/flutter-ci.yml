@@ -14,6 +14,7 @@ jobs:
     - uses: actions/setup-java@v3
       with:
         java-version: '12'
+        distribution: 'temurin'
     
     # Setup the flutter environment.
     - uses: subosito/flutter-action@v2
