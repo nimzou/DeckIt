@@ -2,21 +2,16 @@
 
 <img width="" src="assets/screenshots/icon.png"  width=160 height=160  align="center">
 
-# DeckIt - FlashCards App
-
-</div>
-
-## Screenshots
-
-<div align="center">
-<div>
-<img src="assets/screenshots/1.jpg" width="30%" />
-<img src="assets/screenshots/2.jpg" width="30%" />
-<img src="assets/screenshots/3.jpg" width="30%" />
-<img src="assets/screenshots/4.jpg" width="30%" />
-<img src="assets/screenshots/5.jpg" width="30%" />
-<img src="assets/screenshots/6.jpg" width="30%" />
-</div>
+# DeckIt - FlashCards App  [![Flutter CI](https://github.com/nyaio/DeckIt/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/nyaio/DeckIt/actions/workflows/flutter-ci.yml)
+   </br>
+   <div>
+      <img src="assets/screenshots/1.jpg" width="30%" />
+      <img src="assets/screenshots/2.jpg" width="30%" />
+      <img src="assets/screenshots/3.jpg" width="30%" />
+      <img src="assets/screenshots/4.jpg" width="30%" />
+      <img src="assets/screenshots/5.jpg" width="30%" />
+      <img src="assets/screenshots/6.jpg" width="30%" />
+   </div>
 </div>
 
 <br>
