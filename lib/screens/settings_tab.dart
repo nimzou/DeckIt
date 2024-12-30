@@ -242,7 +242,7 @@ class _SettingsTabState extends State<SettingsTab> {
               children: [
                 ElevatedButton.icon(
                   onPressed: () =>
-                      _launchURL('https://github.com/nyaio/DeckIt'),
+                      _launchURL('https://github.com/nimzou/DeckIt'),
                   icon: const Icon(Icons.code_rounded),
                   label: const Text('DeckIt on GitHub'),
                   style: ElevatedButton.styleFrom(
