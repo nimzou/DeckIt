@@ -32,7 +32,7 @@ Ensure you have the following installed on your development machine:
 1. Clone the repository from GitHub:
 
    ```sh
-   git clone https://github.com/niharPat/DeckIt.git
+   git clone https://github.com/nimzou/DeckIt.git
    ```
 
 2. Navigate to the project directory:
